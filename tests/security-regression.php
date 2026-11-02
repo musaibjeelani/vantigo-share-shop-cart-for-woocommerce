@@ -1,4 +1,5 @@
 <?php
+if ( PHP_SAPI !== 'cli' ) { http_response_code( 403 ); exit; }
 // Isolated behavioral tests; no live WordPress site or database is modified.
 define( 'ABSPATH', __DIR__ );
 define( 'VANTSHSH_PLUGIN_URL', 'https://store.test/plugin/' );

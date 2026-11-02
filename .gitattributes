@@ -3,3 +3,8 @@
 *.jpg binary
 *.jpeg binary
 *.gif binary
+
+/tests export-ignore
+/docs export-ignore
+/CONTRIBUTING.md export-ignore
+/SECURITY.md export-ignore

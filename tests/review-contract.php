@@ -1,4 +1,5 @@
 <?php
+if ( PHP_SAPI !== 'cli' ) { http_response_code( 403 ); exit; }
 $root=dirname(__DIR__);
 $slug='vantigo-share-shop-cart-for-woocommerce'; $checked=0; $translated=0;
 function review_expect($value,$label) { if(!$value) throw new RuntimeException($label); ++$GLOBALS['checked']; }
