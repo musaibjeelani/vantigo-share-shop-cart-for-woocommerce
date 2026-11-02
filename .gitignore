@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.svn/
+.DS_Store
+Thumbs.db
+Desktop.ini
+node_modules/
+.phpunit.cache/
+.phpunit.result.cache
+*.log
+*.zip
+.idea/
+.vscode/
